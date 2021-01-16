@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box {
+    flex: 100%;
+    border: 1px none;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 30px;
+    background-color: hsl(180, 52%, 96%);
+}
+
+.grid {
+    display: flex;
+}
+
+.col {
+    flex: 60%;
+    margin-left: 20px;
+}
+
+.field {
+    border: 1px solid;
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    background-color: rgb(198, 224, 224);
+    border: none;
+    color: grey;
+}
+
